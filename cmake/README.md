@@ -1,4 +1,7 @@
 ####cmake中一些预定义变量
+message(STATUS "project source: " ${PROJECT_SOURCE_DIR})
+message(STATUS "project binary: " ${PROJECT_BINARY_DIR})
+message(STATUS "project source: " ${CMAKE_CURRENT_SOURCE_DIR}) 
 
 * PROJECT\_SOURCE\_DIR 工程的根目录
 * PROJECT\_BINARY\_DIR 运行cmake命令的目录,通常是${PROJECT\_SOURCE\_DIR}/build
